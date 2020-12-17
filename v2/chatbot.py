@@ -22,4 +22,3 @@ class Chatbot:
             self.__response = random.choice(self.__zufallsantworten)
 
         return self.__response
-        
