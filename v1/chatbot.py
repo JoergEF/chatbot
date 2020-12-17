@@ -10,5 +10,8 @@ print("Zum Beenden geben Sie bye ein...")
 print("")
 
 nutzereingabe = ""
-nutzereingabe = input("Ihre Frage oder Antwort: ")
-print(nutzereingabe)
+while nutzereingabe != "bye":
+    nutzereingabe = ""
+    nutzereingabe = input("Ihre Frage oder Antwort: ")
+    print(nutzereingabe)
+print("einen schönen Tag.")
